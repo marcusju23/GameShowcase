@@ -20,7 +20,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Fetch games data and display
     fetch('data/games.json')
         .then(response => response.json())
         .then(data => {

@@ -3,7 +3,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const gameId = parseInt(urlParams.get('id'), 10);
     const gameDetailElement = document.getElementById('gameDetail');
 
-    // Fetch games data and display the selected game's details
     fetch('data/games.json')
         .then(response => response.json())
         .then(data => {
