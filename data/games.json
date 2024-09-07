@@ -1,0 +1,114 @@
+[
+  {
+    "id": 1,
+    "name": "Core Keeper",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1621690/header.jpg?t=1725287590",
+    "description": "Explore a vast cavern of creatures, relics and resources in a mining sandbox adventure for 1-8 players. Mine, build, fight, craft and farm to unravel the mystery of the ancient Core.",
+    "genre": "Sandbox",
+    "source": "https://steamdb.info/app/1621690/"
+  },
+  {
+    "id": 2,
+    "name": "Elden Ring",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1245620/header.jpg?t=1724918615",
+    "description": "THE NEW FANTASY ACTION RPG. Rise, Tarnished, and be guided by grace to brandish the power of the Elden Ring and become an Elden Lord in the Lands Between.",
+    "genre": "Souls-like",
+    "source": "https://steamdb.info/app/1245620/"
+  },
+  {
+    "id": 3,
+    "name": "No Man's Sky",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/275850/header.jpg?t=1725447855",
+    "description": "No Man's Sky is a game about exploration and survival in an infinite procedurally generated universe.",
+    "genre": "Exploration, Survival",
+    "source": "https://steamdb.info/app/275850/"
+  },
+  {
+    "id": 4,
+    "name": "Crusader Kings III",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1158310/header.jpg?t=1725288662",
+    "description": "Love, fight, scheme, and claim greatness. Determine your noble house’s legacy in the sprawling grand strategy of Crusader Kings III. Death is only the beginning as you guide your dynasty’s bloodline in the rich and larger-than-life simulation of the Middle Ages.",
+    "genre": "Strategy, RPG, Historical, 4X",
+    "source": "https://steamdb.info/app/1158310/"
+  },
+  {
+    "id": 5,
+    "name": "Deadlock",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1422450/header.jpg?t=1725437817",
+    "description": "Deadlock is a multiplayer game in early development.",
+    "genre": "MOBA",
+    "source": "https://steamdb.info/app/1422450/"
+  },
+  {
+    "id": 6,
+    "name": "Warhammer: Vermintide 2",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/552500/header.jpg?t=1725423853",
+    "description": "The critically acclaimed Vermintide 2 is a visually stunning and groundbreaking melee action game pushing the boundaries of the first person co-op genre. Join the fight now!",
+    "genre": "Hack and Slash",
+    "source": "https://steamdb.info/app/552500/"
+  },
+  {
+    "id": 7,
+    "name": "Hunt: Showdown 1896",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/594650/header.jpg?t=1725439429",
+    "description": "Hunt: Showdown 1896 is a new era of the addictively unforgiving extraction shooter. In corrupted backwaters lost to history, fight back alone – or with friends – against timeless evil. Twisted monsters and other ruthless Hunters stand between you and your Bounty. Risk everything as Hunt consumes you",
+    "genre": "Extraction",
+    "source": "https://steamdb.info/app/594650/"
+  },
+  {
+    "id": 8,
+    "name": "Valheim",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/892970/header.jpg?t=1725433709",
+    "description": "A brutal exploration and survival game for 1-10 players, set in a procedurally-generated purgatory inspired by viking culture. Battle, build, and conquer your way to a saga worthy of Odin’s patronage!",
+    "genre": "Exploration, Survival",
+    "source": "https://steamdb.info/app/892970/"
+  },
+  {
+    "id": 9,
+    "name": "Dark and Darker",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2016590/header.jpg?t=1725405417",
+    "description": "An unforgiving hardcore fantasy FPS dungeon PvPvE adventure. Band together with your friends and use your courage, wits, and cunning to uncover mythical treasures, defeat gruesome monsters, while staying one step ahead of the other devious treasure-hunters.",
+    "genre": "Dungeon Crawler, Extraction",
+    "source": "https://steamdb.info/app/2016590/"
+  },
+  {
+    "id": 10,
+    "name": "Baldur's Gate 3",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1086940/header.jpg?t=1725446146",
+    "description": "Baldur’s Gate 3 is a story-rich, party-based RPG set in the universe of Dungeons & Dragons, where your choices shape a tale of fellowship and betrayal, survival and sacrifice, and the lure of absolute power.",
+    "genre": "Turn-Based, RPG",
+    "source": "https://steamdb.info/app/1086940/"
+  },
+  {
+    "id": 11,
+    "name": "Satisfactory",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/526870/header.jpg?t=1725452011",
+    "description": "Satisfactory is a first-person open-world factory building game with a dash of exploration and combat. Play alone or with friends, explore an alien planet, create multi-story factories, and enter conveyor belt heaven!",
+    "genre": "Automation, Exploration",
+    "source": "https://steamdb.info/app/526870/"
+  },
+  {
+    "id": 12,
+    "name": "Slay the Spire",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/646570/header.jpg?t=1724875559",
+    "description": "We fused card games and roguelikes together to make the best single player deckbuilder we could. Craft a unique deck, encounter bizarre creatures, discover relics of immense power, and Slay the Spire!",
+    "genre": "Roguelike, Deckbuilder",
+    "source": "https://steamdb.info/app/646570/"
+  },
+  {
+    "id": 13,
+    "name": "Door Kickers 2",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1239080/header.jpg?t=1725052418",
+    "description": "Command military Special Ops Teams in gripping tactical combat against a Middle East-based terrorist network. Sequel to RockPaperShotgun's 'Best Tactics Game of 2014'.",
+    "genre": "Tactical",
+    "source": "https://steamdb.info/app/1239080/"
+  },
+  {
+    "id": 14,
+    "name": "Ready or Not",
+    "image": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1144200/header.jpg?t=1725373572",
+    "description": "Ready or Not is an intense, tactical, first-person shooter that depicts a modern-day world in which SWAT police units are called to defuse hostile and confronting situations.",
+    "genre": "Tactical",
+    "source": "https://steamdb.info/app/1144200/"
+  }
+]

@@ -1,0 +1,283 @@
+/* Basic reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Main content styling */
+main {
+  margin-top: 60px;
+  padding: 20px;
+}
+
+/* Footer styling */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+
+/* Navbar styling */
+.navbar {
+  background-color: #333;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  box-sizing: border-box;
+  z-index: 1000;
+}
+
+.navbar .dropdown {
+  position: relative;
+  margin-left: 20px;
+}
+
+.dropbtn {
+  background-color: #0596d8;
+  color: white;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #333333;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.dropdown-content a {
+  color: #ffffff;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Navbar with search bar */
+.navbar-search {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  margin-left: 60px;
+  margin-right: 60px;
+}
+
+.navbar-search input {
+  padding: 8px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  width: 100%;
+  max-width: 600px;
+}
+
+.navbar-search button {
+  background-color: #0596d8;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Hide search bar if not needed */
+.no-search .navbar-search {
+  display: none;
+}
+
+.no-search .navbar {
+  padding-right: 20px;
+}
+
+/* Game list styling */
+.game-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+}
+
+.game-item {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  width: 200px;
+}
+
+.game-item img {
+  width: 100%;
+  border-radius: 8px;
+}
+
+/* Anchor tag styling */
+a {
+  color: #0596d8;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #0596d8;
+  text-decoration: underline;
+}
+
+/* Contact Page Styling */
+.contact main {
+  background-color: #f9f9f9;
+}
+
+.contact form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.contact label {
+  display: block;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: bold;
+}
+
+.contact input[type="text"],
+.contact input[type="email"],
+.contact textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.contact textarea {
+  height: 150px;
+  resize: vertical;
+}
+
+.contact button[type="submit"] {
+  background-color: #0596d8;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.contact button[type="submit"]:hover {
+  background-color: #0275d8;
+}
+
+/* Game Details Page Styling */
+.game-detail {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #333333;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgb(255, 255, 255);
+}
+
+.game-detail img {
+  width: 100%;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.game-detail h2 {
+  color: #ffffff;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.game-detail p {
+  color: #ffffff;
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+/* Link container for game details */
+.link-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.link-container a {
+  color: #0596d8;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.link-container a:hover {
+  text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+  .game-list {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .navbar-search {
+    max-width: 300px;
+  }
+
+  .contact form {
+    padding: 15px;
+  }
+
+  .contact input[type="text"],
+  .contact input[type="email"],
+  .contact textarea {
+    margin-bottom: 10px;
+  }
+
+  .contact button[type="submit"] {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  .game-detail {
+    padding: 10px;
+  }
+
+  .link-container {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .link-container a {
+    margin-bottom: 10px;
+  }
+}
